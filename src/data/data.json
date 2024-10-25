@@ -1,0 +1,52 @@
+{
+    "home": {
+        "title": "John Doe",
+        "subtitle": "Software Engineer",
+        "profileImage": "assets/images/profile.jpg"
+    },
+    "about": {
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "experience": [
+        {
+            "company": "Tech Corp",
+            "role": "Senior Developer",
+            "duration": "Jan 2020 - Present",
+            "description": "Worked on developing scalable web applications."
+        },
+        {
+            "company": "Web Solutions",
+            "role": "Frontend Developer",
+            "duration": "Jun 2017 - Dec 2019",
+            "description": "Focused on building responsive UI components."
+        }
+    ],
+    "internships": [
+        {
+            "company": "InnovateX",
+            "role": "Software Intern",
+            "duration": "Jun 2016 - Aug 2016",
+            "description": "Assisted in developing internal tools."
+        }
+    ],
+    "hackathons": [
+        {
+            "title": "Hack the Future",
+            "year": "2023",
+            "position": "Winner",
+            "description": "Developed an AI-powered chatbot."
+        }
+    ],
+    "researchPapers": [
+        {
+            "title": "AI in Modern Applications",
+            "publication": "Journal of Computer Science",
+            "year": "2022"
+        }
+    ],
+    "contact": {
+        "email": "john.doe@example.com",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "github": "https://github.com/johndoe"
+    }
+}

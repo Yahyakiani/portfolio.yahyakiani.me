@@ -1,0 +1,50 @@
+.hackathons-section {
+    padding: 100px 20px;
+    background-color: #f9f9f9;
+    color: #2f2f2f;
+  }
+  
+  .hackathons-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+  }
+  
+  .hackathons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .hackathon-card {
+    background-color: #ffffff;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #9aa0a8;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .hackathon-card h3 {
+    margin-top: 0;
+  }
+  
+  .year {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #9aa0a8;
+  }
+  
+  .position {
+    display: block;
+    color: #2f2f2f;
+    margin-bottom: 10px;
+  }
+  
+  .hackathon-card p {
+    margin: 0;
+    line-height: 1.6;
+  }
+  
