@@ -8,6 +8,9 @@ import Hackathons from './components/Hackathons';
 import ResearchPapers from './components/ResearchPapers';
 import Contact from './components/Contact';
 import Separator from './components/Separator';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+
 import './App.css';
 
 function App() {
@@ -23,6 +26,10 @@ function App() {
       <Internships />
       <Separator />
       <Hackathons />
+      <Separator />
+      <Projects />
+      <Separator />
+      <Skills />
       <Separator />
       <ResearchPapers />
       <Separator />

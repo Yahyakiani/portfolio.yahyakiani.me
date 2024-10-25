@@ -1,24 +1,133 @@
 {
     "home": {
-        "title": "John Doe",
+        "title": "Yahya Kayani",
         "subtitle": "Software Engineer",
-        "profileImage": "assets/images/profile.jpg"
+        "profileImage": "assets/images/profile.webp"
     },
     "about": {
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "content": "I am Yahya Kayani (he/him), a Software Developer. I have a keen interest in Web Development, Machine Learning, and Cloud Services. I have been exploring advanced technologies and refining my skills through practical experience at Dalhousie University as a Research Assistant. I enjoy building projects, sharing my learnings in tech, and writing about topics like cloud computing and networking protocols. Additionally, I started Our Tech Community (OTC) four years ago, where we regularly conduct events for tech enthusiasts to learn and grow together. In my leisure time, I love reading books, listening to music, watching educational content on YouTube, and Bird Watching. Feel free to get in touch with me!"
     },
-    "experience": [
+    "projects": [
         {
-            "company": "Tech Corp",
-            "role": "Senior Developer",
-            "duration": "Jan 2020 - Present",
-            "description": "Worked on developing scalable web applications."
+            "title": "Portfolio Website",
+            "year": "2024",
+            "tags": [
+                "React",
+                "JavaScript",
+                "CSS"
+            ],
+            "description": "Developed a personal portfolio website using React and GitHub Pages to showcase my projects and skills.",
+            "link": "https://github.com/yahyakiani/portfolio",
+            "languages": [
+                "JavaScript",
+                "CSS"
+            ],
+            "tools": [
+                "React",
+                "GitHub Pages"
+            ]
         },
         {
-            "company": "Web Solutions",
-            "role": "Frontend Developer",
-            "duration": "Jun 2017 - Dec 2019",
-            "description": "Focused on building responsive UI components."
+            "title": "E-commerce App",
+            "year": "2023",
+            "tags": [
+                "React Native",
+                "Firebase"
+            ],
+            "description": "Built a mobile e-commerce application with real-time database integration using Firebase, allowing users to browse and purchase products.",
+            "link": "https://github.com/yahyakiani/ecommerce-app",
+            "languages": [
+                "JavaScript"
+            ],
+            "tools": [
+                "React Native",
+                "Firebase"
+            ]
+        },
+        {
+            "title": "Heartbeat CRM Tool",
+            "year": "2022",
+            "tags": [
+                "React",
+                "Node.js",
+                "AWS",
+                "RabbitMQ"
+            ],
+            "description": "Led the development of a CRM tool, improving workflows and communication processes using AWS for cloud storage and RabbitMQ for messaging.",
+            "link": "https://github.com/yahyakiani/heartbeat-crm",
+            "languages": [
+                "JavaScript",
+                "Node.js"
+            ],
+            "tools": [
+                "React",
+                "Node.js",
+                "AWS",
+                "RabbitMQ"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "category": "Frontend Development",
+            "skills": [
+                "React",
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "category": "Backend Development",
+            "skills": [
+                "Node.js",
+                "Express",
+                "Python",
+                "Django"
+            ]
+        },
+        {
+            "category": "Tools & Platforms",
+            "skills": [
+                "Git",
+                "GitHub",
+                "Docker",
+                "Firebase",
+                "AWS",
+                "RabbitMQ"
+            ]
+        },
+        {
+            "category": "Machine Learning & Data Processing",
+            "skills": [
+                "Python (Pandas, Numpy, Scikit-learn)",
+                "Jupyter Notebook",
+                "PyTorch"
+            ]
+        },
+        {
+            "category": "Cloud Services & DevOps",
+            "skills": [
+                "AWS (S3, EC2, RDS)",
+                "Docker",
+                "Kubernetes",
+                "CI/CD Pipelines",
+                "Terraform"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "company": "Dalhousie University",
+            "role": "Research Assistant",
+            "duration": "Jan 2023 - Present",
+            "description": "Assisting in research projects focused on enhancing reading education through personalized NLP and ML-powered systems. Presented research findings at the Gi Conference, highlighting advancements in Natural Language Processing and Reading education. Collaborating with faculty on data analysis, experiment design, and presentation of research findings."
+        },
+        {
+            "company": "Nmx Global Software",
+            "role": "Software Engineer",
+            "duration": "Feb 2019 - Dec 2022",
+            "description": "Enhanced database performance by optimizing relational databases and implementing efficient queries, reducing application breakdowns by 15%. Developed API microservices in Node.js and Python, increasing system efficiency by 20%. Led full-stack development using React.js, Node.js, and PostgreSQL, improving system scalability and performance."
         }
     ],
     "internships": [
@@ -31,22 +140,30 @@
     ],
     "hackathons": [
         {
-            "title": "Hack the Future",
-            "year": "2023",
-            "position": "Winner",
-            "description": "Developed an AI-powered chatbot."
+            "title": "Blue Hackathon",
+            "year": "2024",
+            "position": "Runner-up",
+            "description": "Developed a solution for ocean sustainability and ghost gear management, using IoT and cloud services."
+        },
+        {
+            "title": "MLH Global Hackathon",
+            "year": "2024",
+            "position": "Participant",
+            "description": "Collaborated on building an AI-based learning tool for children."
         }
     ],
     "researchPapers": [
         {
-            "title": "AI in Modern Applications",
-            "publication": "Journal of Computer Science",
-            "year": "2022"
+            "title": "DeBERTa Model Optimization for Long-Form Text Annotation",
+            "publication": "NAACL Conference",
+            "year": "2023",
+            "description": "Engaged in a collaborative project to develop an automated text annotator for long-form text, utilizing the DeBERTa model for deep learning tasks."
         }
     ],
     "contact": {
-        "email": "john.doe@example.com",
-        "linkedin": "https://linkedin.com/in/johndoe",
-        "github": "https://github.com/johndoe"
+        "email": "yahyakiani1@gmail.com",
+        "linkedin": "https://linkedin.com/in/yahyakiani",
+        "github": "https://github.com/Yahyakiani",
+        "resume": "https://yahyakiani.github.io/reactJs-resume-template/"
     }
 }
