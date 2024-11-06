@@ -23,7 +23,7 @@ function App() {
       <Separator />
       <Experience />
       <Separator />
-      <Internships />
+      {/* <Internships /> */}
       <Separator />
       <Hackathons />
       <Separator />

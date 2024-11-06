@@ -10,16 +10,16 @@ const Skills = () => {
                 {data.skills.map((skillCategory, index) => (
                     <div key={index} className="skill-category">
                         <h3>{skillCategory.category}</h3>
-                        <ul>
-                            {skillCategory.skills.map((skill, skillIndex) => (
-                                <li key={skillIndex}>{skill}</li>
-                            ))}
-                        </ul>
-                    </div>
-                ))}
+                <div className="skills-list">
+                    {skillCategory.skills.map((skill, skillIndex) => (
+                  <span key={skillIndex} className="skill-item">{skill}</span>
+              ))}
+                </div>
             </div>
-        </section>
-    );
+        ))}
+          </div>
+      </section>
+  );
 };
 
 export default Skills;

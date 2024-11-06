@@ -1,45 +1,55 @@
 .home-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 100px 20px;
-    background-color: #2f2f2f;
-    color: #ffffff;
-  }
-  
-  .home-container {
-    display: flex;
-    align-items: center;
-    max-width: 1000px;
-  }
-  
-  .profile-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 50px;
-  }
-  
-  .home-text h1 {
-    font-size: 3em;
-    margin: 0;
-  }
-  
-  .home-text h2 {
-    font-size: 1.5em;
-    margin-top: 10px;
-    color: #9aa0a8;
-  }
-  @media (max-width: 768px) {
-    .home-container {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .profile-image {
-      margin-right: 0;
-      margin-bottom: 20px;
-    }
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px;
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 50px;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home-text h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.home-text h2 {
+  font-size: 1.5em;
+  margin-top: 10px;
+  color: #9aa0a8;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 2em;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #9aa0a8;
+}
