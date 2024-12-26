@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio.yahyakiani.dev/static/css/main.a8075042.css",
-    "main.js": "/portfolio.yahyakiani.dev/static/js/main.51811770.js",
-    "static/js/453.acca0757.chunk.js": "/portfolio.yahyakiani.dev/static/js/453.acca0757.chunk.js",
-    "static/media/numetrics.jpg": "/portfolio.yahyakiani.dev/static/media/numetrics.2f9824850aa145de32fe.jpg",
-    "static/media/yahya.jpg": "/portfolio.yahyakiani.dev/static/media/yahya.b47eac64b6c220559c60.jpg",
-    "static/media/heartbeat.png": "/portfolio.yahyakiani.dev/static/media/heartbeat.d7875ef92dce125f17eb.png",
-    "static/media/analysis.png": "/portfolio.yahyakiani.dev/static/media/analysis.60c3ef444e8aac78a6ad.png",
-    "static/media/colorsight.png": "/portfolio.yahyakiani.dev/static/media/colorsight.ee3be119860a2fb1df1f.png",
-    "index.html": "/portfolio.yahyakiani.dev/index.html",
-    "main.a8075042.css.map": "/portfolio.yahyakiani.dev/static/css/main.a8075042.css.map",
-    "main.51811770.js.map": "/portfolio.yahyakiani.dev/static/js/main.51811770.js.map",
-    "453.acca0757.chunk.js.map": "/portfolio.yahyakiani.dev/static/js/453.acca0757.chunk.js.map"
+    "main.css": "/portfolio.yahyakiani.me/static/css/main.a8075042.css",
+    "main.js": "/portfolio.yahyakiani.me/static/js/main.b24e7d19.js",
+    "static/js/453.acca0757.chunk.js": "/portfolio.yahyakiani.me/static/js/453.acca0757.chunk.js",
+    "static/media/numetrics.jpg": "/portfolio.yahyakiani.me/static/media/numetrics.2f9824850aa145de32fe.jpg",
+    "static/media/yahya.jpg": "/portfolio.yahyakiani.me/static/media/yahya.b47eac64b6c220559c60.jpg",
+    "static/media/heartbeat.png": "/portfolio.yahyakiani.me/static/media/heartbeat.d7875ef92dce125f17eb.png",
+    "static/media/analysis.png": "/portfolio.yahyakiani.me/static/media/analysis.60c3ef444e8aac78a6ad.png",
+    "static/media/colorsight.png": "/portfolio.yahyakiani.me/static/media/colorsight.ee3be119860a2fb1df1f.png",
+    "index.html": "/portfolio.yahyakiani.me/index.html",
+    "main.a8075042.css.map": "/portfolio.yahyakiani.me/static/css/main.a8075042.css.map",
+    "main.b24e7d19.js.map": "/portfolio.yahyakiani.me/static/js/main.b24e7d19.js.map",
+    "453.acca0757.chunk.js.map": "/portfolio.yahyakiani.me/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8075042.css",
-    "static/js/main.51811770.js"
+    "static/js/main.b24e7d19.js"
   ]
 }
