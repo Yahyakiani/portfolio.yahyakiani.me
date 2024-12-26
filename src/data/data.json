@@ -142,16 +142,22 @@
         }
     ],
     "researchPapers": [
-        {
-            "title": "DeBERTa Model Optimization for Long-Form Text Annotation",
-            "publication": "NAACL Conference",
-            "year": "2023",
-            "description": "Engaged in a collaborative project to develop an automated text annotator for long-form text, utilizing the DeBERTa model for deep learning tasks."
-        }
+    {
+    "title": "Enhancing Reading Education with Personalized NLP Systems",
+    "authors": [
+        "Jane Doe",
+        "John Smith"
+    ],
+    "year": 2024,
+    "venue": "International Conference on Education and Learning Technologies",
+    "description": "This paper explores the development of personalized Natural Language Processing (NLP) systems to improve reading education outcomes by adapting to individual student needs.",
+    "link": "https://doi.org/10.1234/icel.2024.56789"
+}
     ],
     "contact": {
         "email": "yahyakiani1@gmail.com",
         "linkedin": "https://linkedin.com/in/yahyakiani",
+        "phone": "+1 (234) 567-890",
         "github": "https://github.com/Yahyakiani",
         "resume": "https://yahyakiani.github.io/reactJs-resume-template/"
     }
