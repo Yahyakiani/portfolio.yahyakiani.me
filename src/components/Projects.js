@@ -1,36 +1,58 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/Projects.css';
 import data from '../data/data.json';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-const Projects = () => {
+const Projects = ({ theme = 'dark' }) => { // default theme is light
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+            once: true,
+        });
+    }, []);
+
     return (
-        <section id="projects" className="projects-section">
+        <section id="projects" className={`projects-section ${theme}-section`}>
             <h2>Projects</h2>
             <div className="projects-container">
                 {data.projects.map((project, index) => (
-                    <div key={index} className="project-card">
-                  <img src={project.image} alt={project.title} className="project-image" />
-                  <div className="project-details">
-                      <h3>{project.title}</h3>
-                      <p>{project.description}</p>
-                      {project.link && (
-                          <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
-                              View Project
-                          </a>
-                      )}
-                      {project.github && (
-                          <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
-                              GitHub Repository
-                          </a>
-                      )}
-                      <div className="project-tags">
-                          {project.tags.map((tag, tagIndex) => (
-                              <span key={tagIndex} className="tag-item">{tag}</span>
-                          ))}
-                      </div>
-                  </div>
-              </div>
-          ))}
+                    <div
+                        key={index}
+                        className="project-card"
+                        data-aos="fade-up"
+                    >
+                        <div className="project-image-wrapper">
+                            <img src={project.image} alt={project.title} className="project-image" loading="lazy" />
+                            {/* Optional Overlay */}
+                            {/* <div className="project-overlay">
+                                <a href={project.link} target="_blank" rel="noopener noreferrer" className="overlay-button">Live Demo</a>
+                                <a href={project.github} target="_blank" rel="noopener noreferrer" className="overlay-button">GitHub</a>
+                            </div> */}
+                        </div>
+                        <div className="project-details">
+                            <h3 className="project-title">{project.title}</h3>
+                            <p className="project-description">{project.description}</p>
+                            <div className="project-links">
+                                {project.link && (
+                                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
+                                        Live Demo
+                                    </a>
+                                )}
+                                {project.github && (
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
+                                        GitHub
+                                    </a>
+                                )}
+                            </div>
+                            <div className="project-tags">
+                                {project.tags.map((tag, tagIndex) => (
+                                    <span key={tagIndex} className="project-tag">{tag}</span>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                ))}
             </div>
         </section>
     );
