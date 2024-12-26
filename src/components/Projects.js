@@ -12,6 +12,17 @@ const Projects = ({ theme = 'dark' }) => { // default theme is light
         });
     }, []);
 
+    // Function to import all images from a directory
+    const importAll = (r) => {
+        let images = {};
+        r.keys().forEach((item) => { images[item.replace('./', '')] = r(item); });
+        return images;
+    };
+
+    // Import all images from src/assets/images
+    const images = importAll(require.context('../assets/images', false, /\.(png|jpe?g|svg)$/));
+
+
     return (
         <section id="projects" className={`projects-section ${theme}-section`}>
             <h2>Projects</h2>
@@ -23,7 +34,7 @@ const Projects = ({ theme = 'dark' }) => { // default theme is light
                         data-aos="fade-up"
                     >
                         <div className="project-image-wrapper">
-                            <img src={project.image} alt={project.title} className="project-image" loading="lazy" />
+                            <img src={images[project.image]} alt={project.title} className="project-image" loading="lazy" />
                             {/* Optional Overlay */}
                             {/* <div className="project-overlay">
                                 <a href={project.link} target="_blank" rel="noopener noreferrer" className="overlay-button">Live Demo</a>

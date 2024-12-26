@@ -4,127 +4,174 @@
         "subtitle": "Software Engineer"
     },
     "about": {
-        "content": "I am Yahya Kayani, a Software Developer. I have a keen interest in Web Development, Machine Learning, and Cloud Services. I have been exploring advanced technologies and refining my skills through practical experience at Dalhousie University as a Research Assistant. I enjoy building projects, sharing my learnings in tech, and writing about topics like cloud computing and networking protocols. Additionally, I started Our Tech Community (OTC) four years ago, where we regularly conduct events for tech enthusiasts to learn and grow together. In my leisure time, I love reading books, listening to music, watching educational content on YouTube, and Bird Watching. Feel free to get in touch with me!"
+        "content": "I am Yahya Kayani, a Software Developer with a strong background in Web Development, Machine "
     },
-    "projects": [
-    {
-        "title": "Portfolio Website",
-        "year": "2024",
-        "tags": [
-            "React",
-            "JavaScript",
-            "CSS"
-        ],
-        "description": "Developed a personal portfolio website using React and GitHub Pages to showcase my projects and skills.",
-        "link": "https://github.com/yahyakiani/portfolio",
-    "github": "https://github.com/yahyakiani/portfolio",
-    "image": "assets/images/portfolio.jpg"
-},
-{
-    "title": "E-commerce App",
-    "year": "2023",
-    "tags": [
-        "React Native",
-        "Firebase"
-    ],
-    "description": "Built a mobile e-commerce application with real-time database integration using Firebase, allowing users to browse and purchase products.",
-    "link": "https://github.com/yahyakiani/ecommerce-app",
-    "github": "https://github.com/yahyakiani/ecommerce-app",
-    "image": "assets/images/ecommerce.jpg"
-},
-{
-    "title": "Heartbeat CRM Tool",
-    "year": "2022",
-    "tags": [
-        "React",
-        "Node.js",
-        "AWS",
-        "RabbitMQ"
-    ],
-    "description": "Led the development of a CRM tool, improving workflows and communication processes using AWS for cloud storage and RabbitMQ for messaging.",
-    "link": "https://github.com/yahyakiani/heartbeat-crm",
-    "github": "https://github.com/yahyakiani/heartbeat-crm",
-    "image": "assets/images/heartbeat.jpg"
-}
-],
-    "skills": [
-    {
-        "category": "Frontend Development",
-        "skills": [
-            "React",
-            "JavaScript",
-            "HTML",
-            "CSS"
-        ]
-    },
-    {
-        "category": "Backend Development",
-        "skills": [
-            "Node.js",
-            "Express",
-            "Python",
-            "Django"
-        ]
-    },
-    {
-        "category": "Tools & Platforms",
-        "skills": [
-            "Git",
-            "GitHub",
-            "Docker",
-            "Firebase",
-        "AWS"
-    ]
-},
-{
-    "category": "Machine Learning & Data Processing",
-    "skills": [
-        "Python (Pandas, Numpy, Scikit-learn)",
-        "Jupyter Notebook",
-        "PyTorch"
-    ]
-},
-{
-    "category": "Cloud Services & DevOps",
-    "skills": [
-        "AWS (S3, EC2, RDS)",
-        "Docker",
-        "Kubernetes",
-        "CI/CD Pipelines"
-    ]
-}
-],
-    "experience": [
-    {
-        "company": "Dalhousie University",
-    "role": "Research Assistant",
-    "duration": "Jan 2023 - Dec 2024",
-    "location": "Halifax, Canada",
-    "website": "https://dal.ca",
-    "responsibilities": [
-        "Assisting in research projects focused on enhancing reading education through personalized NLP and ML-powered systems.",
-        "Collaborating with faculty on data analysis, experiment design, and presentation of research findings."
-    ]
-},
-{
-    "company": "Nmx Global Software",
-    "role": "Software Engineer",
-    "duration": "Feb 2019 - Dec 2022",
-    "location": "Remote",
-    "website": "https://nmxglobal.com",
-    "responsibilities": [
-        "Enhanced database performance by optimizing relational databases and implementing efficient queries, reducing application breakdowns by 15%.",
-        "Developed API microservices in Node.js and Python, increasing system efficiency by 20%.",
-        "Led full-stack development using React.js, Node.js, and PostgreSQL, improving system scalability and performance."
-    ]
-}
-],
-    "internships": [
+    "education": [
         {
-            "company": "InnovateX",
-            "role": "Software Intern",
-            "duration": "Jun 2016 - Aug 2016",
-            "description": "Assisted in developing internal tools."
+            "institution": "COMSATS Institute of Information Technology",
+            "location": "Rawalpindi, Pakistan",
+            "degree": "B.S. in Computer Science and Engineering",
+            "duration": "Feb 2015 - Jan 2019",
+            "courses": [
+                "Data Structures",
+                "Machine Learning",
+                "Web Engineering",
+                "Database Management"
+            ],
+            "achievements": [
+                "Second prize for final year project at the industrial Expo in University."
+            ]
+        },
+        {
+            "institution": "Dalhousie University",
+            "location": "Halifax, Canada",
+            "degree": "Masters in Computer Science",
+            "duration": "Jan 2023 - Dec 2024",
+            "courses": [
+                "Data Mining and Data Warehousing",
+                "Process of Data Science",
+                "Software Defined Networking"
+            ],
+            "research": "Conducting research on using NLP and Machine Learning to assist children’s reading skills and assessment."
+        }
+    ],
+    "experience": [
+        {
+            "company": "Dalhousie University",
+            "role": "Graduate Student - Research Assistant",
+            "duration": "Jan 2023 - Dec 2024",
+            "location": "Halifax, Canada",
+            "website": "https://dal.ca",
+            "responsibilities": [
+                "Assisting in research projects focused on enhancing reading education through personalized NLP and ML-powered systems.",
+                "Presented research findings at the GI Conference, highlighting advancements in Natural Language Processing and Reading education.",
+                "Collaborating with faculty on data analysis, experiment design, and presentation of research findings."
+            ]
+        },
+        {
+            "company": "Nmx Global Software",
+            "role": "Software Engineer",
+            "duration": "Feb 2019 - Dec 2022",
+            "location": "Remote",
+            "website": "https://nmxglobalsoftware.com/",
+            "responsibilities": [
+                "Enhanced database performance by optimizing relational databases and implementing efficient queries, reducing application breakdowns by 15%.",
+                "Developed API microservices in Node.js and Python, increasing system efficiency by 20%.",
+                "Led full-stack development using React.js, Node.js, and PostgreSQL, improving system scalability and performance.",
+                "Integrated RESTful APIs with the front-end, ensuring seamless communication between the React-based UI and the backend services.",
+                "Deployed and maintained applications on AWS, utilizing Docker for containerization and CI/CD pipelines for automated deployment.",
+                "Implemented security features, such as JWT-based authentication, for secure user access and enhanced data protection."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Heartbeat CRM Tool",
+            "year": "2022",
+            "tags": [
+                "React",
+                "Node.js",
+                "RabbitMQ",
+                "NestJS",
+                "AWS",
+                "Jest",
+                "Mocha",
+                "TDD"
+            ],
+            "description": "Architected and developed scalable CRM tools, improving workflows for real estate operations using AWS, RabbitMQ, and React. Built secure backend services in Node.js/NestJS, integrating ICS feeds for calendar synchronization. Leveraged containerized deployments (Docker) and CI/CD pipelines to ensure efficient, error-free releases. Collaborated cross-functionally with QA and design teams, driving end-to-end testing with Jest, Mocha, and TDD methodologies.",
+            "link": "https://schellbrothers.com/why-choose-schell/heartbeat/",
+            "github": "",
+            "image": "heartbeat.png"
+        },
+        {
+            "title": "Replicate Face-Swap Application",
+            "year": "2024",
+            "tags": [
+                "Python",
+                "Flask",
+                "Docker",
+                "AWS S3",
+                "CI/CD"
+            ],
+            "description": "Designed a production-ready face-swap service utilizing Python APIs, Docker, and AWS S3 for scalable and secure image processing workflows. Established CI/CD pipelines with GitHub Actions, automating tests and deployment to minimize manual interventions. Delivered a highly concurrent system with performance optimizations tailored for image processing tasks.",
+            "link": "https://github.com/yahyakiani/replicate-face-swap",
+            "github": "https://github.com/yahyakiani/replicate-face-swap",
+            "image": "face-swap.jpg"
+        },
+        {
+            "title": "Neural Edge",
+            "year": "2019",
+            "tags": [
+                "Python",
+                "JavaScript",
+                "React",
+                "SQLAlchemy",
+                "Docker",
+                "Pytest"
+            ],
+            "description": "Developed predictive healthcare models with a focus on real-time data processing using Python, SQLAlchemy, and Docker. Enhanced monitoring and debugging environments using AWS CloudWatch, integrated with Linux-based developer tools for consistent system performance. Delivered optimized SQL queries reducing data processing time by 30%, ensuring reliability in high-load scenarios. Utilized Agile methodologies, collaborating with cross-functional teams to meet tight deadlines.",
+            "link": "https://github.com/yahyakiani/neural-edge",
+            "github": "https://github.com/yahyakiani/neural-edge",
+            "image": "analysis.png"
+        },
+        {
+            "title": "Numetrics",
+            "year": "2020",
+            "tags": [
+                "TypeScript",
+                "Node.js",
+                "React",
+                "AWS",
+                "SQL",
+                "Jest",
+                "Mocha"
+            ],
+            "description": "Built and maintained CI/CD pipelines to automate testing, code reviews, and deployment, ensuring quick and consistent updates in production. Developed RESTful APIs to support data-driven insights for R&D teams, enabling them to identify productivity bottlenecks and receive targeted recommendations. Utilized Jest and Mocha for automated testing, following Test-Driven Development (TDD) to enhance code quality and maintainability. Optimized SQL queries and implemented database query caching, significantly improving data processing speeds for analytics workloads.",
+            "link": "https://github.com/yahyakiani/numetrics",
+            "github": "https://github.com/yahyakiani/numetrics",
+            "image": "numetrics.jpg"
+        }
+    ],
+    "skills": [
+        {
+            "category": "Programming Languages",
+            "skills": [
+                "Python",
+                "TypeScript",
+                "JavaScript",
+                "Bash",
+                "Java"
+            ]
+        },
+        {
+            "category": "Frontend Development",
+            "skills": [
+                "React",
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "category": "Backend Development",
+            "skills": [
+                "Node.js",
+                "Express",
+                "Python",
+                "Django",
+                "NestJS",
+                "Flask"
+            ]
+        },
+        {
+            "category": "Monitoring & DevOps",
+            "skills": [
+                "Docker",
+                "AWS",
+                "CI/CD Pipelines",
+                "GitHub Actions",
+                "AWS CloudWatch"
+            ]
         }
     ],
     "hackathons": [
@@ -132,7 +179,7 @@
             "title": "Blue Hackathon",
             "year": "2024",
             "position": "Runner-up",
-            "description": "Developed a solution for ocean sustainability and ghost gear management, using IoT and cloud services."
+            "description": "Developed a solution for ocean sustainability and ghost gear management using IoT and cloud services."
         },
         {
             "title": "MLH Global Hackathon",
@@ -141,24 +188,46 @@
             "description": "Collaborated on building an AI-based learning tool for children."
         }
     ],
-    "researchPapers": [
-    {
-    "title": "Enhancing Reading Education with Personalized NLP Systems",
-    "authors": [
-        "Jane Doe",
-        "John Smith"
+    "awards": [
+        {
+            "title": "Finalist",
+            "year": "2018",
+            "event": "COMSATS Projects and Career Expo",
+            "description": "Recognized for outstanding project presentation at the industrial Expo."
+        },
+        {
+            "title": "Regional Qualifier",
+            "year": "2017",
+            "event": "Model CCI Parliamentary Provincial Debating Competition",
+            "description": "Advanced to the regional level in a national debating competition."
+        },
+        {
+            "title": "Drama Organizer",
+            "year": "2019",
+            "event": "Pakistan National Council of Arts",
+            "description": "Organized drama events and coordinated with participants for performances."
+        }
     ],
-    "year": 2024,
-    "venue": "International Conference on Education and Learning Technologies",
-    "description": "This paper explores the development of personalized Natural Language Processing (NLP) systems to improve reading education outcomes by adapting to individual student needs.",
-    "link": "https://doi.org/10.1234/icel.2024.56789"
-}
+    "researchPapers": [
+        
+        {
+            "title": "DeBERTa Model Optimization for Long‑Form Text Annotation",
+            "authors": [
+                "Domenic Rosati",
+                "Robie Gonzales",
+                "Yahya Kayani"
+            ],
+            "year": 2023,
+            "venue": "NAACL Conference",
+            "description": "Developed an automated text annotator for long‑form text using the DeBERTa model, enhancing deep learning tasks and transforming research notebooks into Docker-contained services.",
+            "link": "https://arxiv.org/abs/2402.09394"
+        }
     ],
     "contact": {
         "email": "yahyakiani1@gmail.com",
         "linkedin": "https://linkedin.com/in/yahyakiani",
-        "phone": "+1 (234) 567-890",
+        "phone": "+1 (902)-802-1858",
         "github": "https://github.com/Yahyakiani",
-        "resume": "https://yahyakiani.github.io/reactJs-resume-template/"
+        "resume": ""
     }
 }
