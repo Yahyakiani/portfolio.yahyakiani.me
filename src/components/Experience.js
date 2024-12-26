@@ -8,12 +8,23 @@ const Experience = () => {
             <h2>Experience</h2>
             <div className="experience-container">
                 {data.experience.map((exp, index) => (
-                    <div key={index} className="experience-card">
-                        <h3>{exp.role} at {exp.company}</h3>
-                        <span className="duration">{exp.duration}</span>
-                        <p>{exp.description}</p>
-                    </div>
-                ))}
+              <div key={index} className="experience-item">
+                  <div className="experience-content">
+                      <h3 className="company-name">{exp.company}</h3>
+                      <p className="role">{exp.role}</p>
+                      <p className="duration">{exp.duration}</p>
+                      <p className="location">{exp.location}</p>
+                      <a href={exp.website} target="_blank" rel="noopener noreferrer" className="company-website">
+                          {exp.website}
+                      </a>
+                      <ul className="responsibilities">
+                          {exp.responsibilities.map((responsibility, rIndex) => (
+                              <li key={rIndex}>{responsibility}</li>
+                          ))}
+                      </ul>
+                  </div>
+              </div>
+          ))}
             </div>
         </section>
     );

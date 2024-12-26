@@ -9,17 +9,28 @@ const Projects = () => {
             <div className="projects-container">
                 {data.projects.map((project, index) => (
                     <div key={index} className="project-card">
-                        <h3>{project.title}</h3>
-                        <span className="year">{project.year}</span>
-                        <span className="tags">{project.tags.join(', ')}</span>
-                        <p>{project.description}</p>
-                        <div className="project-details">
-                            <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">View Project</a>
-                            <p className="languages">Languages: {project.languages.join(', ')}</p>
-                            <p className="tools">Tools: {project.tools.join(', ')}</p>
-                        </div>
-                    </div>
-                ))}
+                  <img src={project.image} alt={project.title} className="project-image" />
+                  <div className="project-details">
+                      <h3>{project.title}</h3>
+                      <p>{project.description}</p>
+                      {project.link && (
+                          <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
+                              View Project
+                          </a>
+                      )}
+                      {project.github && (
+                          <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
+                              GitHub Repository
+                          </a>
+                      )}
+                      <div className="project-tags">
+                          {project.tags.map((tag, tagIndex) => (
+                              <span key={tagIndex} className="tag-item">{tag}</span>
+                          ))}
+                      </div>
+                  </div>
+              </div>
+          ))}
             </div>
         </section>
     );

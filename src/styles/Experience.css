@@ -1,42 +1,63 @@
 .experience-section {
-    padding: 100px 20px;
-    background-color: #f9f9f9;
-    color: #2f2f2f;
-  }
-  
-  .experience-section h2 {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 2.5em;
-  }
-  
-  .experience-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .experience-card {
-    background-color: #ffffff;
-    padding: 20px 30px;
-    margin: 10px 0;
-    width: 80%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .experience-card h3 {
-    margin: 0;
-    font-size: 1.5em;
-  }
-  
-  .duration {
-    display: block;
-    color: #9aa0a8;
-    margin-bottom: 10px;
-  }
-  
-  .experience-card p {
-    margin: 0;
-    line-height: 1.6;
-  }
-  
+  padding: 100px 20px;
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+.experience-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  color: #ffffff;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.experience-item {
+  padding: 20px 0;
+  border-bottom: 1px solid #444;
+}
+
+.company-name {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.role {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.duration, .location {
+  font-size: 1em;
+  margin: 5px 0;
+  color: #9aa0a8;
+}
+
+.company-website {
+  font-size: 1em;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.company-website:hover {
+  text-decoration: underline;
+}
+
+.responsibilities {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.responsibilities li {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #ffffff;
+}

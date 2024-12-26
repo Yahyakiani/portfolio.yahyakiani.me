@@ -1,72 +1,84 @@
 .projects-section {
-    padding: 100px 20px;
-    background-color: #2f2f2f;
-    color: #ffffff;
-  }
-  
-  .projects-section h2 {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 2.5em;
-    color: #ffffff;
-  }
-  
-  .projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .project-card {
-    background-color: #9aa0a8;
-    width: 300px;
-    margin: 10px;
-    padding: 20px;
-    border: 2px solid #ffffff;
-    border-radius: 10px;
-    position: relative;
-  }
-  
-  .project-card h3 {
-    margin-top: 0;
-    color: #2f2f2f;
-  }
-  
-  .year {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    color: #2f2f2f;
-  }
-  
-  .tags {
-    display: block;
-    color: #2f2f2f;
-    margin-bottom: 10px;
-  }
-  
-  .project-card p {
-    margin: 0;
-    line-height: 1.6;
-    color: #2f2f2f;
-  }
-  
-  .project-details {
-    margin-top: 15px;
-  }
-  
-  .project-link {
-    display: block;
-    color: #ffffff;
-    text-decoration: none;
-    margin-bottom: 10px;
-  }
-  
-  .project-link:hover {
-    text-decoration: underline;
-  }
-  
-  .languages, .tools {
-    color: #2f2f2f;
-    margin: 5px 0;
-  }
+  padding: 100px 20px;
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+.projects-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  color: #ffffff;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.project-card {
+  background-color: #9aa0a8;
+  width: 350px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project-details h3 {
+  margin-top: 0;
+  color: #2f2f2f;
+}
+
+.project-details p {
+  line-height: 1.6;
+  color: #2f2f2f;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #2f2f2f;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.project-link:hover {
+  background-color: #ffffff;
+  color: #2f2f2f;
+}
+
+.project-tags {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag-item {
+  background-color: #2f2f2f;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.9em;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Home.css';
 import data from '../data/data.json';
 import profileImage from '../assets/images/yahya.jpg';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaCalendarAlt } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Home = () => {
     const { title, subtitle } = data.home;
