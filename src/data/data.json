@@ -118,17 +118,13 @@
             "title": "Numetrics",
             "year": "2020",
             "tags": [
-                "TypeScript",
-                "Node.js",
-                "React",
-                "AWS",
-                "SQL",
-                "Jest",
-                "Mocha"
+                "Java",
+                "Spring Boot",
+                "API Development"
             ],
             "description": "Built and maintained CI/CD pipelines to automate testing, code reviews, and deployment, ensuring quick and consistent updates in production. Developed RESTful APIs to support data-driven insights for R&D teams, enabling them to identify productivity bottlenecks and receive targeted recommendations. Utilized Jest and Mocha for automated testing, following Test-Driven Development (TDD) to enhance code quality and maintainability. Optimized SQL queries and implemented database query caching, significantly improving data processing speeds for analytics workloads.",
-            "link": "https://github.com/yahyakiani/numetrics",
-            "github": "https://github.com/yahyakiani/numetrics",
+            "link": "https://www.mckinsey.com/solutions/numetrics",
+            "github": "#",
             "image": "numetrics.jpg"
         }
     ],
