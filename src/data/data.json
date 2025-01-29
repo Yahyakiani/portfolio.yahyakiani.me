@@ -69,14 +69,7 @@
             "title": "Heartbeat CRM Tool",
             "year": "2022",
             "tags": [
-                "React",
-                "Node.js",
-                "RabbitMQ",
-                "NestJS",
-                "AWS",
-                "Jest",
-                "Mocha",
-                "TDD"
+                
             ],
             "description": "Architected and developed scalable CRM tools, improving workflows for real estate operations using AWS, RabbitMQ, and React. Built secure backend services in Node.js/NestJS, integrating ICS feeds for calendar synchronization. Leveraged containerized deployments (Docker) and CI/CD pipelines to ensure efficient, error-free releases. Collaborated cross-functionally with QA and design teams, driving end-to-end testing with Jest, Mocha, and TDD methodologies.",
             "link": "https://schellbrothers.com/why-choose-schell/heartbeat/",
@@ -87,11 +80,7 @@
             "title": "Replicate Face-Swap Application",
             "year": "2024",
             "tags": [
-                "Python",
-                "Flask",
-                "Docker",
-                "AWS S3",
-                "CI/CD"
+                
             ],
             "description": "Designed a production-ready face-swap service utilizing Python APIs, Docker, and AWS S3 for scalable and secure image processing workflows. Established CI/CD pipelines with GitHub Actions, automating tests and deployment to minimize manual interventions. Delivered a highly concurrent system with performance optimizations tailored for image processing tasks.",
             "link": "https://github.com/yahyakiani/replicate-face-swap",
@@ -102,12 +91,7 @@
             "title": "Neural Edge",
             "year": "2019",
             "tags": [
-                "Python",
-                "JavaScript",
-                "React",
-                "SQLAlchemy",
-                "Docker",
-                "Pytest"
+                
             ],
             "description": "Developed predictive healthcare models with a focus on real-time data processing using Python, SQLAlchemy, and Docker. Enhanced monitoring and debugging environments using AWS CloudWatch, integrated with Linux-based developer tools for consistent system performance. Delivered optimized SQL queries reducing data processing time by 30%, ensuring reliability in high-load scenarios. Utilized Agile methodologies, collaborating with cross-functional teams to meet tight deadlines.",
             "link": "https://github.com/yahyakiani/neural-edge",
@@ -118,9 +102,7 @@
             "title": "Numetrics",
             "year": "2020",
             "tags": [
-                "Java",
-                "Spring Boot",
-                "API Development"
+                
             ],
             "description": "Built and maintained CI/CD pipelines to automate testing, code reviews, and deployment, ensuring quick and consistent updates in production. Developed RESTful APIs to support data-driven insights for R&D teams, enabling them to identify productivity bottlenecks and receive targeted recommendations. Utilized Jest and Mocha for automated testing, following Test-Driven Development (TDD) to enhance code quality and maintainability. Optimized SQL queries and implemented database query caching, significantly improving data processing speeds for analytics workloads.",
             "link": "https://www.mckinsey.com/solutions/numetrics",
@@ -143,6 +125,7 @@
             "category": "Frontend Development",
             "skills": [
                 "React",
+                "Angular",
                 "JavaScript",
                 "HTML",
                 "CSS"
@@ -153,7 +136,7 @@
             "skills": [
                 "Node.js",
                 "Express",
-                "Python",
+                "Naxt.js",
                 "Django",
                 "NestJS",
                 "Flask"
