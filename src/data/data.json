@@ -83,8 +83,7 @@
                 
             ],
             "description": "Designed a production-ready face-swap service utilizing Python APIs, Docker, and AWS S3 for scalable and secure image processing workflows. Established CI/CD pipelines with GitHub Actions, automating tests and deployment to minimize manual interventions. Delivered a highly concurrent system with performance optimizations tailored for image processing tasks.",
-            "link": "https://github.com/yahyakiani/replicate-face-swap",
-            "github": "https://github.com/yahyakiani/replicate-face-swap",
+            "link": "https://replicate.com/codeplugtech/face-swap",
             "image": "face-swap.jpg"
         },
         {
@@ -94,8 +93,6 @@
                 
             ],
             "description": "Developed predictive healthcare models with a focus on real-time data processing using Python, SQLAlchemy, and Docker. Enhanced monitoring and debugging environments using AWS CloudWatch, integrated with Linux-based developer tools for consistent system performance. Delivered optimized SQL queries reducing data processing time by 30%, ensuring reliability in high-load scenarios. Utilized Agile methodologies, collaborating with cross-functional teams to meet tight deadlines.",
-            "link": "https://github.com/yahyakiani/neural-edge",
-            "github": "https://github.com/yahyakiani/neural-edge",
             "image": "analysis.png"
         },
         {
